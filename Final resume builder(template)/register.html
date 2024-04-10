@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+    
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="resume/video/173522 (1440p).mp4" type="video/mp4">
+      </video>
+        <div class="content">
+            <div class="mainform">
+                <h2>Register</h2>
+            
+                    <input type="text" id="username" class="box" placeholder="username">
+                
+                
+                    <input type="email" id="email" class="box" placeholder="Email id">
+            
+                
+                    <input type="password" id="password" class="box" placeholder="password">
+                
+                <button onclick="register()" type="submit" id="submit" class="btn btn-primary">Register</button>
+                <a href="login.html" style="color: aliceblue; font-size: 3rem;">Sign up</a>
+            </div>
+      </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+   
+    <script>
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDSU_AVXOIrlAiH-8WJ3UKMXlOgVaUVK8U",
+    authDomain: "fir-harshad-37665.firebaseapp.com",
+    databaseURL: "https://fir-harshad-37665-default-rtdb.firebaseio.com",
+    projectId: "fir-harshad-37665",
+    storageBucket: "fir-harshad-37665.appspot.com",
+    messagingSenderId: "707546519046",
+    appId: "1:707546519046:web:b2b782d639855c92c09587",
+    measurementId: "G-E1S836Y9NX"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="app2.js"></script>
+
+</body>
+
+</html>

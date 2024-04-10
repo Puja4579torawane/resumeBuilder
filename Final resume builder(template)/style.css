@@ -1,0 +1,78 @@
+
+.mainform{
+  display:flex;
+  flex-direction: column;
+  height: 520px;
+  width: 420px;
+  border: 1px solid black;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: inset -5px -5px rgba(0,0,0,0.5);
+  border-radius: 25px;
+}
+.content {
+  position: fixed;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+#email-msg{
+  position: absolute;
+  top: 100%;
+  left: 2px;
+  font-size: 2rem;
+  font-weight: 800;
+  color: red;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.mainform h1{
+ color: antiquewhite;
+ font-size: 4rem;
+ border-bottom: 4px solid rgba(255,255,255,0.5);
+ margin-top: 50px;
+}
+ 
+.box{
+ padding: 12px;
+ margin: 15px;
+ width: 70%;
+ height: 70px;
+ border: none;
+ outline: none;
+ border-radius: 20px;
+ background-color: rgba(0,0,0,0.5);
+ box-shadow: inset -3px rgba(0,0,0,0.5);
+ color: beige;
+ font-size: 2rem;
+}
+
+#submit{
+    padding: 10px 20px;
+    margin-top: 50px;
+    width:50%;
+    height: 80px;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: inset -3px -3px rgba(0,0,0,0.5);
+    color: blanchedalmond;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 2rem;
+}
+#submit:hover{
+  cursor:pointer;
+  background-color: rgb(160, 170, 169);
+  color: aliceblue;
+}
+
+::placeholder{
+  color: aliceblue;
+  opacity: 0.7;
+}
